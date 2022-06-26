@@ -43,11 +43,11 @@ def batting():
             
              i+=1 
              if x==y:
-                i+=1
+               
                 wickets1-=1
                 print("Wicket!!!")
                 print(f"balls:{i-1}")
-                print(f"wickets remaining:{wickets}")
+                print(f"wickets remaining:{wickets1}")
                 
                 continue
              
